@@ -1,0 +1,33 @@
+name: projeto_loja
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.26.0
+  firebase_auth: ^4.17.7
+  cloud_firestore: ^4.15.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "images/app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
